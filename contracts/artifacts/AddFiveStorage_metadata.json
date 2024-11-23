@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newnumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AddFireStorege.sol": "AddFiveStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddFireStorege.sol": {
+			"keccak256": "0xee2dd885acd95e62952cd11bb075c6f6d034bbde9b71ed7d5e59e0ee68144d3c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cef83b66a6a06ee62ea39849ba86db24ba77edafaf63ccc7732907c43ce44507",
+				"dweb:/ipfs/QmWURPMb4HPMLtfXA2e4zEhtvC3ZKdb3FbokGHoGPqzNxM"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x12fe8e1d2a57197c8849c62472f8596b4ff9c3b8ea93e6c6725fc24d032ef9cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed7a5a72dc703df2ad269721ae8f56a20281ff91a1e5064606ca3a0b73fcb9c1",
+				"dweb:/ipfs/QmXTeA9qrEu64QAWtSwt4ycgBeKAATJLovV9bmghKqJYTU"
+			]
+		}
+	},
+	"version": 1
+}
